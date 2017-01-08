@@ -1,4 +1,4 @@
-// Purpose of this file is descripe 'tasks' that convert from
+// Purpose of this file is describe 'tasks' that convert from
 // developer mode to production mode. 
 // Things like converting Sass to CSS, removing comments, mergin files, etc.
 

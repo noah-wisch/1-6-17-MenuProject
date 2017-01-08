@@ -6,11 +6,43 @@
     <title>Starter Pack</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+     <script type="x-mustache-template" id="lunchMenu">
+        <h2>{{name}}</h2>
+        <p class="description">by {{descrption}}</p>
+        <p class="price">${{price}}</p>
+    </script>
     <script src="app.js"></script>
 </head>
 
 <body>
-    <h1>Start Here</h1>
+    <h1>Menu of the Foods</h1>
+    <!--<button type="button" onclick="hideThings">Lunch Menu</button>-->
+    <section id="lunch">
+        <ul>
+        </ul>
+    </section>
+    <section id="dinner">
+        <ul>
+            <li>
+                <h1><span>Entrees</span></h1>
+            </li>
+            <li>
+                <h2>Filet Mignon</h2>
+                <h3>We serve some expensive meats here</h3>
+                <p>$27.00</p>
+            </li>
+            <li>
+                <h2>Philly Cheesesteak</h2>
+                <h3>We also serve some classic PA foods?</h3>
+                <p>$12.00</p>
+            </li>
+            <li>
+                <h2>Grilled Lemon Chicken Breast</h2>
+                <h3>Idk, I was running out of ideas here</h3>
+                <p>$10.00</p>
+            </li>
+        </ul>
+    </section>
 </body>
 
 </html>

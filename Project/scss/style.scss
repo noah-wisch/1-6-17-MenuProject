@@ -5,4 +5,41 @@
 
 body {
     background-color:#f66733;
+    text-align:center;
+
+    h1 {
+        text-decoration:underline;
+    }
+
+    h3 {
+        font-weight:lighter;
+    }
+}
+
+span {
+    font-weight:bold;
+}
+
+#lunch {
+    @include grid-row(0);
+    
+    ul {
+        list-style:none;
+        //padding:0;
+    }
+}
+
+#dinner {
+    @include grid-row(0);
+    ul {
+        list-style:none;
+        //padding:0;
+        
+    }
+}
+
+button {
+    background-color:#FFF;
+    border-radius:5px;
+    padding:1%;
 }
