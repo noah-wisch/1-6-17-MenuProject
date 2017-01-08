@@ -3,9 +3,11 @@
 
 let lunchItems = require('./array')
 
-let showLunchItems = require('./array')
+let showLunchItems = require('./DOM')
 
 window.addEventListener('load', function() {
     console.log('testing');
-    showLunchItems(lunchItems)
+    showLunchItems(lunchItems);
+    console.log(showLunchItems);
+    console.log(lunchItems);
 });
