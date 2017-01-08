@@ -32,3 +32,5 @@ function showLunchItems(item) {
     parent.appendChild(child);
 }
 
+module.exports = showLunchItems;
+
