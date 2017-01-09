@@ -5,9 +5,9 @@ function showLunchItems(item) {
     let template = document.querySelector('#lunchMenu');
 
     child.innerHTML = Mustache.render(template.innerHTML, {
-        name: array.food,
-        description: array.description,
-        price: array.price,
+        name: item.food,
+        description: item.description,
+        price: item.price,
     });
     parent.appendChild(child);
 }
